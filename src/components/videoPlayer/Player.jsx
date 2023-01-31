@@ -4,7 +4,7 @@ import "./player.css";
 const Player = (props) => {
   return (
     <>
-      <div className="video-box d-flex">
+      <div className="video-box d-flex justify-content-center">
         <div className="thumbnail">
           <img src={props.imgSrc} alt="thumbnail" />
         </div>
