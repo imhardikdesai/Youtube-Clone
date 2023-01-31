@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { BiVideoPlus } from "react-icons/bi";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import { BiSearchAlt2 } from "react-icons/bi";
