@@ -1,0 +1,34 @@
+.thumbnail img{
+    border-radius: 22px;
+    height: 210px;
+}
+.video-profile img{
+    height: 35px;
+    border-radius: 100px;
+    margin: 5px;
+}
+
+.video_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 50px;
+}
+
+.video-box{
+    flex-direction: column;
+    margin: 15px;
+    /* border: 1px solid red;    */
+}
+
+.text-area{
+    text-align: justify;
+}
+.video-bottom{
+    width: 300px;
+}
+.title{
+    font-size: 15px;
+}
+.channel-name{
+    font-size: 12px;
+}

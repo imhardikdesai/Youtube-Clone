@@ -1,0 +1,109 @@
+#yt_logo {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+}
+
+.ham {
+    margin: 0px 15px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    border-radius: 100px;
+    width: 450px;
+    border: 1px solid gray;
+    height: 43px;
+}
+
+.third {
+    display: flex;
+    align-items: center;
+}
+
+.search_box {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    border: 0px;
+    border-radius: 100px;
+    padding: 4px 11px;
+    background-color: #499cbb;
+    color: white;
+}
+
+.font {
+    font-size: 1.6rem;
+    padding: 4px 10px;
+}
+
+.font:hover {
+    border-radius: 100px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    padding: 4px 10px;
+    line-height: 3;
+}
+
+/* SLIDE NAVIGATION  */
+#section {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.side-nav {
+    width: 213px;
+    margin: 5px 20px;
+}
+
+.mini-icon {
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+.mini-box {
+    margin: 5px 0px;
+    font-size: 15px;
+}
+
+.byDefaultCat {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+.mini-box:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+.cat-box {
+    background-color: #f2f2f2;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    display: inline-block;
+    margin: 5px 6px;
+    padding: 4px 10px;
+    font-size: 15px;
+}
