@@ -4,7 +4,7 @@ import "./player.css";
 const Player = (props) => {
   return (
     <>
-      <div className="video-box d-flex justify-content-center">
+      <div className="video-box d-flex justify-content-center player-color">
         <div className="thumbnail">
           <img src={props.imgSrc} alt="thumbnail" />
         </div>
@@ -17,7 +17,7 @@ const Player = (props) => {
           </div>
           <div className="text-area">
             <div className="title">{props.title}</div>
-            <div className="channel-name text-muted">{props.channelName}</div>
+            <div className="channel-name">{props.channelName}</div>
           </div>
         </div>
       </div>
