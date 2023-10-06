@@ -1,20 +1,32 @@
 import YTContext from "./YTContext";
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import {
   getCommaSeparatedChannelId,
   getVideosWithChannelAvatar,
 } from "../utils/GetChannelIds";
+
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const YTState = (props) => {
   const [query, setQuery] = useState("mostPopular");
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const API_KEY = process.env.REACT_APP_API_KEY;
   const search_HTTP = "https://www.googleapis.com/youtube/v3/search?";
   const channel_HTTP = "https://www.googleapis.com/youtube/v3/channels?";
 
-  const fetchVideos = async () => {
+  const fetchChannels = async (commaSeparatedChannelId) => {
+    return fetch(
+      channel_HTTP +
+        new URLSearchParams({
+          key: API_KEY,
+          part: "snippet",
+          id: commaSeparatedChannelId,
+        })
+    );
+  };
+
+  const fetchVideos = useCallback(async () => {
     try {
       setLoading(true);
 
@@ -59,18 +71,7 @@ const YTState = (props) => {
     } finally {
       setLoading(false);
     }
-  };
-
-  const fetchChannels = async (commaSeparatedChannelId) => {
-    return fetch(
-      channel_HTTP +
-        new URLSearchParams({
-          key: API_KEY,
-          part: "snippet",
-          id: commaSeparatedChannelId,
-        })
-    );
-  };
+  }, [query]);
 
   return (
     <YTContext.Provider value={{ query, setQuery, fetchVideos, data, loading }}>
