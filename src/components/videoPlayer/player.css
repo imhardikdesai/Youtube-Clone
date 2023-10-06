@@ -31,4 +31,16 @@
 }
 .channel-name{
     font-size: 12px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.light-theme{
+    --bg-color: white;
+    --text-color: #0f0f0f;
+}
+  
+.dark-theme{
+    --bg-color: #0f0f0f;
+    --text-color:  white;
 }

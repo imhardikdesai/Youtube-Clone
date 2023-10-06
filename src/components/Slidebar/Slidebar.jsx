@@ -10,7 +10,7 @@ const Slidebar = () => {
   return (
     <>
       <div className="side-nav">
-        <div className="mini-box byDefaultCat d-flex align-items-center">
+        <div className="mini-box d-flex align-items-center">
           <div className="mini-icon font">
             <AiFillHome />
           </div>
