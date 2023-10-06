@@ -4,6 +4,7 @@ import {
   getCommaSeparatedChannelId,
   getVideosWithChannelAvatar,
 } from "../utils/GetChannelIds";
+import demoData from "../db/demodata";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
@@ -67,6 +68,7 @@ const YTState = (props) => {
       );
       setData(videoWithChannelAvatar);
     } catch (err) {
+      setData(demoData);
       console.error("Error: ", err);
     } finally {
       setLoading(false);
