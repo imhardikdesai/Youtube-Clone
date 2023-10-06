@@ -18,7 +18,7 @@ export const getVideosWithChannelAvatar = (searchResponse, channelResponse) => {
       (channel) => channel.id === response.snippet.channelId
     );
     if (channelFound) {
-      response["channelAvatar"] = channelFound.snippet.thumbnails.high.url;
+      response["channelAvatar"] = channelFound.snippet.thumbnails.default.url;
     }
     return response;
   });

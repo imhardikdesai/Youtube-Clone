@@ -3,7 +3,7 @@ import Yt from "../../db/Yt";
 import Player from "../videoPlayer/Player";
 import YTContext from "../../context/YTContext";
 const Upnav = () => {
-  const { data, loading } = useContext(YTContext);
+  const { data } = useContext(YTContext);
   const memoData = useMemo(() => data, [data]);
 
   return (
@@ -19,22 +19,17 @@ const Upnav = () => {
         })}
 
         <div className="video_gallery">
-          {loading ? (
-            <>Loading...</>
-          ) : (
-            memoData?.map((item, i) => {
-              return (
-                <Player
-                  key={`${item.etag}`}
-                  item={item}
-                  imgSrc={item.snippet.thumbnails.high.url}
-                  title={item.snippet.title}
-                  channelName={item.snippet.channelTitle}
-                  avatar={item.channelAvatar}
-                />
-              );
-            })
-          )}
+          {memoData?.map((item) => {
+            return (
+              <Player
+                key={item.etag}
+                imgSrc={item.snippet.thumbnails.high.url}
+                title={item.snippet.title}
+                channelName={item.snippet.channelTitle}
+                avatar={item.channelAvatar}
+              />
+            );
+          })}
         </div>
       </div>
     </>
