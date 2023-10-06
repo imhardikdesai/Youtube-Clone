@@ -1,6 +1,8 @@
 #yt_logo {
     height: 50px;
+    
 }
+
 
 nav {
     display: flex;
@@ -23,6 +25,7 @@ nav {
     align-items: center;
 }
 
+
 #search {
     border-radius: 100px;
     width: 450px;
@@ -38,6 +41,7 @@ nav {
 .search_box {
     display: flex;
     align-items: center;
+    
 }
 
 .profile {
@@ -107,3 +111,23 @@ input::-webkit-input-placeholder {
     padding: 4px 10px;
     font-size: 15px;
 }
+
+input.mx-2{
+    background-color: var(--bg-color);
+    text-emphasis-color: white;
+}
+
+.light-theme{
+    --bg-color: white;
+    --text-color: #0f0f0f;
+  }
+  
+  .dark-theme{
+    --bg-color: #0f0f0f;
+    --text-color:  white;
+  }
+
+
+  .nav{
+    margin-top: 0px;
+  }

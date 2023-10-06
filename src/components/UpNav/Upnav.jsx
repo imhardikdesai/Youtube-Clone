@@ -2,6 +2,8 @@ import React, { useContext, useMemo } from "react";
 import Yt from "../../db/Yt";
 import Player from "../videoPlayer/Player";
 import YTContext from "../../context/YTContext";
+import "./Upnav.css";
+
 const Upnav = () => {
   const { data } = useContext(YTContext);
   const memoData = useMemo(() => data, [data]);
