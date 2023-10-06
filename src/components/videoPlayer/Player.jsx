@@ -10,10 +10,7 @@ const Player = (props) => {
         </div>
         <div className="video-bottom d-flex">
           <div className="video-profile">
-            <img
-              src="https://yt3.ggpht.com/ytc/AL5GRJVjaz-2XOEEYWVYb5lpUHcujv-9CawSwuE4HnMMmg=s68-c-k-c0x00ffffff-no-rj"
-              alt="profile"
-            />
+            <img src={props.avatar} alt="profile" />
           </div>
           <div className="text-area">
             <div className="title">{props.title}</div>
