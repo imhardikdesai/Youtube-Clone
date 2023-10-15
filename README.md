@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Youtube Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub license](https://img.shields.io/github/license/imhardikdesai/Youtube-Clone?style=flat&logo=github)
+![GitHub repo size](https://img.shields.io/github/repo-size/imhardikdesai/Youtube-Clone?style=flat&logo=github)
+![GitHub issues](https://img.shields.io/github/issues/imhardikdesai/Youtube-Clone?style=flat&logo=github)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/imhardikdesai/Youtube-Clone?style=flat&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/imhardikdesai/Youtube-Clone?style=flat&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/imhardikdesai/Youtube-Clone?style=flat&logo=github)
+![Language](https://img.shields.io/github/languages/top/imhardikdesai/Youtube-Clone?style=flat&logo=github)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Description](#description)
+- [Prerequisites](#prerequisites)
+- [Setup Instructions](#setup-instructions)
+- [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
+- [Contributing Guidelines](#contributing-guidelines)
+- [Contributing Steps](#contributing-steps)
+- [Author: Desai Hardik](#author-desai-hardik)
+- [Contributors✨](#contributors)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a Youtube Clone built using ReactJS, CSS, and Youtube API. It has all the features of Youtube like searching videos and Home page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+- **Install Node JS:** Refer to https://nodejs.org/en/ to install nodejs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Learn React JS:** If you are new to React JS then you can refer to their [docs](https://react.dev/).
 
-### `npm run build`
+## Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone this repository using the following command.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/imhardikdesai/Youtube-Clone
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Open the project in your favorite code editor.
+- Run the following command to install all the dependencies.
 
-### `npm run eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Run the following command to start the development server.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Open http://localhost:3000 in your browser to see the app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tech Stack
 
-## Learn More
+- ReactJS
+- CSS
+- Youtube API
+- React-Icons
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Home Light](./screenshots/l-home.png)
+![Search Light](./screenshots/l-search.png)
+![Home Dark](./screenshots/d-home.png)
+![Search Dark](./screenshots/d-search.png)
 
-### Code Splitting
+## Contributing Guidelines
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Please read our [Contributing Guide](CONTRIBUTING.md)
+- Ensure you have followed all the steps mentioned in [Contributing Guide](CONTRIBUTING.md) before creating a pull request.
+- Pull requests will be merged after being reviewed.
+- Issues can be created from [here](https://github.com/imhardikdesai/Youtube-Clone/issues).
+- Please make sure you do not create a duplicate issue.
+- Please make sure you are assigned to the issue before you start working on it.
+- Please make sure you have added proper commit messages and have commented on the code wherever necessary.
+- Please make sure you have added the issue number in your pull request description before sending a pull request. For example, "Fixes #5".
+- Have fun!
 
-### Analyzing the Bundle Size
+## Contributing Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Fork this repository.
+- Create a branch: git checkout -b <branch_name>.
+- Make your changes and commit them: git commit -m '<commit_message>'
+- Push to the original branch: git push origin <project_name>/<location>
+- Create the pull request.
 
-### Making a Progressive Web App
+## Author: Desai Hardik
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [GitHub](https://github.com/imhardikdesai)
+- [LinkedIn](https://www.linkedin.com/in/imhardikdesai/)
+- [Portfolio](https://hardik-portfolio.vercel.app/)
+- [Twitter](https://twitter.com/imhardikdesai)
+- [Instagram](https://instagram.com/imhardikdesai)
 
-### Advanced Configuration
+## Contributors✨
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p aligh='center'>
+Thanks goes to these wonderful people ❤️
+</p>
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Contributors](https://contrib.rocks/image?repo=imhardikdesai/Youtube-Clone)
