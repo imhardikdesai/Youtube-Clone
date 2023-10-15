@@ -8,11 +8,21 @@
 ![GitHub stars](https://img.shields.io/github/stars/imhardikdesai/Youtube-Clone?style=flat&logo=github)
 ![Language](https://img.shields.io/github/languages/top/imhardikdesai/Youtube-Clone?style=flat&logo=github)
 
+## Table of Contents
+
+- [Description](#description)
+- [Prerequisites](#prerequisites)
+- [Setup Instructions](#setup-instructions)
+- [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
+- [Contributing Guidelines](#contributing-guidelines)
+- [Contributing Steps](#contributing-steps)
+- [Author: Desai Hardik](#author-desai-hardik)
+- [Contributors✨](#contributors)
+
 ## Description
 
 This is a Youtube Clone built using ReactJS, CSS, and Youtube API. It has all the features of Youtube like searching videos and Home page.
-
-## Table of Contents
 
 ## Prerequisites
 
